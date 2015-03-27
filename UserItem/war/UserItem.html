@@ -1,0 +1,91 @@
+<!doctype html>
+<!-- The DOCTYPE declaration above will set the     -->
+<!-- browser's rendering engine into                -->
+<!-- "Standards Mode". Replacing this declaration   -->
+<!-- with a "Quirks Mode" doctype is not supported. -->
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <!--                                                               -->
+    <!-- Consider inlining CSS to reduce the number of requested files -->
+    <!--                                                               -->
+    <!-- link type="text/css" rel="stylesheet" href="UserItem.css" -->
+
+    <!--                                           -->
+    <!-- Any title is fine                         -->
+    <!--                                           -->
+    <title>Información del usuario</title>
+    
+    <!--                                           -->
+    <!-- This script loads your compiled module.   -->
+    <!-- If you add any GWT meta tags, they must   -->
+    <!-- be added before this line.                -->
+    <!--                                           -->
+    <script type="text/javascript" language="javascript" src="useritem/useritem.nocache.js"></script>
+    
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/content-in-bootstrap-tabs.css">
+    <!-- content-in-bootstrap-tabs.css -->
+
+    
+  </head>
+
+  <!--                                           -->
+  <!-- The body can have arbitrary html, or      -->
+  <!-- you can leave the body empty if you want  -->
+  <!-- to create a completely dynamic UI.        -->
+  <!--                                           -->
+  <body>
+
+    <!-- OPTIONAL: include this if you want history support -->
+    <iframe src="javascript:''" id="__gwt_historyFrame" tabIndex='-1' style="position:absolute;width:0;height:0;border:0"></iframe>
+    
+    <!-- RECOMMENDED if your web app will not function without JavaScript enabled -->
+    <noscript>
+      <div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px; font-family: sans-serif">
+        Your web browser must have JavaScript enabled
+        in order for this application to display correctly.
+      </div>
+    </noscript>
+    <hr />
+	<center><img src="./images/bannerMovies.png" WIDTH="940" HEIGHT="180"/></center><br />
+    <center><strong>Universidad de los Andes - Sistemas de recomendación - Taller 1 -  Deisy Diaz Pérez - Ricardo Calle Archila</strong></center>
+    <hr />
+
+    <div class="container header">
+        <div class="row">
+            <div class="col-xs-12 col-sm-push-2 col-sm-10 ">
+				<div role="tabpanel">
+				
+				  <!-- Nav tabs -->
+				  <ul class="nav nav-tabs" role="tablist">
+				    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Inicio</a></li>
+				    <li role="presentation"><a href="#usuariousuario" aria-controls="usuariousuario" role="tab" data-toggle="tab">Usuario-Usuario</a></li>
+				    <li role="presentation"><a href="#itemitem" aria-controls="itemitem" role="tab" data-toggle="tab">Item-Item</a></li>
+				    <li role="presentation"><a href="#user" aria-controls="user" role="tab" data-toggle="tab">Crear usuario</a></li>
+				    <li role="presentation"><a href="#movie" aria-controls="movie" role="tab" data-toggle="tab">Películas usuario</a></li>
+				  </ul>
+				
+				  <!-- Tab panes -->
+				  <div class="tab-content">
+				    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+				    <div role="tabpanel" class="tab-pane" id="usuariousuario">...</div>
+				    <div role="tabpanel" class="tab-pane" id="itemitem"></div>
+				    <div role="tabpanel" class="tab-pane" id="user"></div>
+				    <div role="tabpanel" class="tab-pane" id="movie"></div>
+				  </div>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/content-in-bootstrap-tabs.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,2 @@
+serviceClass: co.edu.uniandes.useritem.client.UserService
+path: 86371215D3E805382A0D5D1EA66B7827.gwt.rpc
